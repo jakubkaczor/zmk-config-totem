@@ -3,4 +3,6 @@ include:
     shield: totem_left
   - board: xiao_ble//zmk
     shield: totem_right
-# there is no settingsreset (needed) for the XIAO
+  # In case of left-right connection issues. See https://github.com/GEIGEIGEIST/TOTEM/issues/19#issuecomment-3024092236.
+  - board: xiao_ble//zmk
+    shield: settings_reset
